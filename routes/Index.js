@@ -3,7 +3,8 @@ var router = express();
 
 router.get("/",(req,res)=>{
     res.render("index", {
-        title: "Home page"
+        title: "Home page",
+        bodyClass:""
     });
 })
 module.exports = router;
