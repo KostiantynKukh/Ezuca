@@ -1,0 +1,22 @@
+doctype html
+head
+ meta(charset='UTF-8')
+ meta(name='viewport' content='width=device-width, initial-scale=1.0')
+ meta(http-equiv='X-UA-Compatible' content='ie=edge')
+ title #{title}
+ link(rel='stylesheet' href='/css/bootstrap.min.css')
+ link(rel='stylesheet' href='/css/font-awesome.min.css')
+ link(rel='stylesheet' href='/css/elegant-fonts.css')
+ link(rel='stylesheet' href='/css/themify-icons.css')
+ link(rel='stylesheet' href='/css/swiper.min.css')
+ link(rel='stylesheet' href='/css/style.css') 
+body(class="" + page)
+ include blocks/header.pug           
+ block content
+ include blocks/client-logo.pug
+ include blocks/footer.pug
+ script(type='text/javascript' src='/js/jquery.js')
+ script(type='text/javascript' src='/js/swiper.min.js')
+ script(type='text/javascript' src='/js/masonry.pkgd.min.js')
+ script(type='text/javascript' src='/js/jquery.collapsible.min.js')
+ script(type='text/javascript' src='/js/custom.js')

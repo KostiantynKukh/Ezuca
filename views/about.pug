@@ -1,0 +1,271 @@
+extends layout
+block content
+ .page-header
+  .page-header-overlay
+    .container
+      .row
+        .col-12
+          header.entry-header
+            h1 ABOUT
+            // .entry-header
+            // .col
+            // .row
+            // .container
+            // .page-header-overlay
+            // .page-header
+ .container
+  .row
+    .col-12
+      .breadcrumbs
+        ul.flex.flex-wrap.align-items-center.p-0.m-0
+          li
+            a(href='#')
+              i.fa.fa-home
+              |  Home
+          li About
+      // .breadcrumbs
+    // .col
+  // .row
+  .row
+    .col-12
+      .about-heading
+        h2.entry-title Welcome to Ezuca
+        p
+          | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.
+      // .about-heading
+    // .col
+    .col-12.col-lg-6
+      .about-stories
+        h3 Our Stories
+        p
+          | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis eros lobortis, vestibulum turpis ac, pulvinar odio.
+        ul.p-0.m-0.green-ticked
+          li Learning program with after-school
+          li Positive learning environment
+          li Learning through play
+        // .green-ticked
+      // .about-stories
+    // .col
+    .col-12.col-lg-6
+      .about-values
+        h3 Our Stories
+        p
+          | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis eros lobortis, vestibulum turpis ac, pulvinar odio.
+        ul.p-0.m-0.green-ticked
+          li Learning program with after-school
+          li Positive learning environment
+          li Learning through play
+        // .green-ticked
+        // .about-values
+        // .col
+        // .row
+        // .container
+ section.about-section
+  .container
+    .row
+      .col-12.col-lg-6.align-content-lg-stretch
+        header.heading
+          h2.entry-title About Ezuca
+          p
+            | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+        // .heading
+        .entry-content.ezuca-stats
+          .stats-wrap.flex.flex-wrap.justify-content-lg-between
+            .stats-count
+              | 50
+              span M+
+              p STUDENTS LEARNING
+            // .stats-count
+            .stats-count
+              | 30
+              span K+
+              p ACTIVE COURSES
+            // .stats-count
+            .stats-count
+              | 340
+              span M+
+              p INSTRUCTORS ONLINE
+            // .stats-count
+            .stats-count
+              | 20
+              span +
+              p Country Reached
+            // .stats-count
+          // .stats-wrap
+        // .ezuca-stats
+      // .col
+      .col-12.col-lg-6.flex.align-content-center.mt-5.mt-lg-0
+        .ezuca-video.position-relative
+          .video-play-btn.position-absolute
+            img(src='images/video-icon.png', alt='Video Play')
+          // .video-play-btn
+          img(src='images/video-screenshot.png', alt='')
+        // .ezuca-video
+      // .col
+    // .row
+    // .container
+    // .about-section
+ section.testimonial-section
+  // Swiper
+  .swiper-container.testimonial-slider
+    .swiper-wrapper
+      .swiper-slide
+        .container
+          .row
+            .col-12.col-lg-6.order-2.order-lg-1.flex.align-items-center.mt-5.mt-lg-0
+              figure.user-avatar
+                img(src='images/user-1.jpg', alt='')
+              // .user-avatar
+            // .col
+            .col-12.col-lg-6.order-1.order-lg-2.content-wrap.h-100
+              .entry-content
+                p
+                  | Together as teachers, students and universities we can help make this education available for everyone.
+              // .entry-content
+              .entry-footer
+                h3.testimonial-user
+                  | Russell Stephens - 
+                  span University in UK
+              // .entry-footer
+            // .col
+          // .row
+        // .container
+      // .swiper-slide
+      .swiper-slide
+        .container
+          .row
+            .col-12.col-lg-6.order-2.order-lg-1.flex.align-items-center.mt-5.mt-lg-0
+              figure.user-avatar
+                img(src='images/user-2.jpg', alt='')
+              // .user-avatar
+            // .col
+            .col-12.col-lg-6.order-1.order-lg-2.content-wrap.h-100
+              .entry-content
+                p
+                  | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              // .entry-content
+              .entry-footer
+                h3.testimonial-user
+                  | Robert Stephens - 
+                  span University in Oxford
+              // .entry-footer
+            // .col
+          // .row
+        // .container
+      // .swiper-slide
+      .swiper-slide
+        .container
+          .row
+            .col-12.col-lg-6.flex.order-2.order-lg-1.align-items-center.mt-5.mt-lg-0
+              figure.user-avatar
+                img(src='images/user-3.jpg', alt='')
+              // .user-avatar
+            // .col
+            .col-12.col-lg-6.order-1.order-lg-2.content-wrap.h-100
+              .entry-content
+                p
+                  | Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+              // .entry-content
+              .entry-footer
+                h3.testimonial-user
+                  | James Stephens - 
+                  span University in Cambridge
+              // .entry-footer
+            // .col
+          // .row
+        // .container
+      // .swiper-slide
+    // .swiper-wrapper
+    .container
+      .row
+        .col-12.col-lg-6.mt-5.mt-lg-0
+          .swiper-pagination.position-relative.flex.justify-content-center.align-items-center
+        // .col
+      // .row
+    // .container
+    // .testimonial-slider
+    // .testimonial-section
+ .container
+  .row
+    .col-12
+      .team-heading
+        h2.entry-title Meet Our Team
+        p
+          | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.
+      // .team-heading
+    // .col
+    .col-12.col-md-6.col-lg-3
+      .team-member
+        img(src='images/team-1.jpg', alt='')
+        h3 Mr. John Wick
+        h4 Materials
+        ul.p-0.m-0.d-flex.justify-content-center.align-items-center
+          li
+            a(href='#')
+              i.fa.fa-facebook
+          li
+            a(href='#')
+              i.fa.fa-linkedin
+          li
+            a(href='#')
+              i.fa.fa-twitter
+      // .team-member
+    // .col
+    .col-12.col-md-6.col-lg-3
+      .team-member
+        img(src='images/team-2.jpg', alt='')
+        h3 Michelle Golden
+        h4 WordPress
+        ul.p-0.m-0.d-flex.justify-content-center.align-items-center
+          li
+            a(href='#')
+              i.fa.fa-facebook
+          li
+            a(href='#')
+              i.fa.fa-linkedin
+          li
+            a(href='#')
+              i.fa.fa-twitter
+      // .team-member
+    // .col
+    .col-12.col-md-6.col-lg-3
+      .team-member
+        img(src='images/team-3.jpg', alt='')
+        h3 Ms. Lucius
+        h4 Data Analysis
+        ul.p-0.m-0.d-flex.justify-content-center.align-items-center
+          li
+            a(href='#')
+              i.fa.fa-facebook
+          li
+            a(href='#')
+              i.fa.fa-linkedin
+          li
+            a(href='#')
+              i.fa.fa-twitter
+      // .team-member
+    // .col
+    .col-12.col-md-6.col-lg-3
+      .team-member
+        img(src='images/team-4.jpg', alt='')
+        h3 Ms. Lara Croft 
+        h4 HTML CSS
+        ul.p-0.m-0.d-flex.justify-content-center.align-items-center
+          li
+            a(href='#')
+              i.fa.fa-facebook
+          li
+            a(href='#')
+              i.fa.fa-linkedin
+          li
+            a(href='#')
+              i.fa.fa-twitter
+      // .team-member
+    // .col
+    // .row
+    // .container
+      

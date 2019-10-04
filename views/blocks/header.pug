@@ -1,0 +1,66 @@
+header.site-header
+  .top-header-bar
+    .container-fluid
+      .row
+        .col-12.col-lg-6.d-none.d-md-flex.flex-wrap.justify-content-center.justify-content-lg-start.mb-3.mb-lg-0
+          .header-bar-email.d-flex.align-items-center
+            i.fa.fa-envelope
+            a(href='#') tuanna.design@gmail.com
+          // .header-bar-email
+          .header-bar-text.lg-flex.align-items-center
+            p
+              i.fa.fa-phone
+              | 001-1234-88888
+          // .header-bar-text
+        // .col
+        .col-12.col-lg-6.d-flex.flex-wrap.justify-content-center.justify-content-lg-end.align-items-center
+          .header-bar-search
+            form.flex.align-items-stretch
+              input(type='search' placeholder='What would you like to learn?')
+              button.flex.justify-content-center.align-items-center(type='submit' value='')
+                i.fa.fa-search
+          // .header-bar-search
+          .header-bar-menu
+            ul.flex.justify-content-center.align-items-center.py-2.pt-md-0
+              li
+                a(href='#') Register
+              li
+                a(href='#') Login
+          // .header-bar-menu
+        // .col
+      // .row
+    // .container-fluid
+  // .top-header-bar
+  .nav-bar
+    .container
+      .row
+        .col-9.col-lg-3
+          .site-branding
+            h1.site-title
+              a(href='index.html' rel='home')
+                | Ezu
+                span ca
+          // .site-branding
+        // .col
+        .col-3.col-lg-9.flex.justify-content-end.align-content-center
+          nav.site-navigation.flex.justify-content-end.align-items-center
+            ul.flex.flex-column.flex-lg-row.justify-content-lg-end.align-content-center
+              li.current-menu-item
+                a(href='/') Home
+              li
+                a(href='/about') About
+              li
+                a(href='/courses') Courses
+              li
+                a(href='/blog') blog
+              li
+                a(href='/contact') Contact
+            .hamburger-menu.d-lg-none
+              span
+              span
+              span
+              span
+            // .hamburger-menu
+            .header-bar-cart
+              a.flex.justify-content-center.align-items-center(href='#')
+                span.icon_bag_alt(aria-hidden='true')
