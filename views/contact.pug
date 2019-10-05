@@ -1,0 +1,64 @@
+extends layout
+block content
+ .page-header   
+  .page-header-overlay
+    .container
+      .row
+        .col-12
+          header.entry-header
+            h1 #{entryHeader}
+          // .entry-header
+        // .col
+      // .row
+    // .container
+    // .page-header-overlay
+    // .page-header
+ .container
+  .row
+    .col-12
+      .breadcrumbs
+        ul.flex.flex-wrap.align-items-center.p-0.m-0
+          li
+            a(href='#')
+              i.fa.fa-home
+              |  Home
+          li Contact
+      // .breadcrumbs
+    // .col
+  // .row
+  .row.justify-content-between
+    .col-12
+      .contact-gmap
+        iframe(frameborder='0', scrolling='no', marginheight='0', marginwidth='0', src='https://www.google.com/maps/embed/v1/place?key=AIzaSyAyCkIjViJ_7vt5PMIHai_NjcdR64QYycw&q=Space+Needle,Seattle+WA', allowfullscreen='')
+      // .contact-gmap
+    // .col
+    .col-12.col-lg-6
+      .contact-form
+        h3 Contact Form
+        form
+          input(type='text', placeholder='Your Name')
+          input(type='email', placeholder='Your Email')
+          input(type='text', placeholder='Subject')
+          textarea(placeholder='Your Message', rows='4')
+          input(type='submit', value='Send Message')
+      // .contact-form
+    // .col
+    .col-12.col-lg-6
+      .contact-info
+        h3 Contact Information
+        p
+          | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum.
+        ul.p-0.m-0
+          li
+            span Location:
+            | 40 Baria Sreet 133/2 NewYork City, US
+          li
+            span Email:
+            a(href='#') info.deeercreative@gmail.com
+          li
+            span Phone:
+            a(href='#') (203) 123-6666
+      // .contact-info
+    // .col
+    // .row
+    // .container

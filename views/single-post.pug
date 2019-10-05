@@ -1,0 +1,260 @@
+extends layout
+block content
+ .page-header
+  .page-header-overlay
+   .container
+    .row
+      .col-12
+        header.entry-header
+          h1.entry-title #{entryHeader}
+          .entry-meta.flex.justify-content-center.align-items-center
+            .post-author
+              a(href='#') Ms. Lara Croft 
+            .post-comments
+              a(href='#') 02 Comments
+          // .entry-meta
+        // .entry-header
+      // .col
+    // .row
+    // .container
+    // .page-header-overlay
+    // .page-header
+ .container
+  .row
+    .col-12.offset-lg-1.col-lg-10
+      .featured-image
+        img(src='images/single-post.jpg', alt='')
+        .posted-date.position-absolute
+          .day 23
+          .month mar
+        // .posted-date
+      // .featured-image
+    // .col
+  // .row
+  .row
+    .col-12.offset-lg-1.col-lg-1
+      .post-share
+        h3 share
+        ul.flex.flex-wrap.align-items-center.p-0.m-0
+          li
+            a(href='#')
+              i.fa.fa-facebook
+          li
+            a(href='#')
+              i.fa.fa-twitter
+          li
+            a(href='#')
+              i.fa.fa-google-plus
+          li
+            a(href='#')
+              i.fa.fa-instagram
+          li
+            a(href='#')
+              i.fa.fa-thumb-tack
+      // .post-share
+    // .col
+    .col-12.col-lg-8
+      .single-post-wrap
+        p
+          | This is what we do: My husband monitors travel sites and email subscription services for super-cheap flights or error fares. Sometimes one of us travels for work and the other tags along. When we find a good deal, we make a split-second decision&mdash;because great airfares don&rsquo;t last long&mdash;and then start planning. We&rsquo;re both freelance writers, so we have some flexibility in terms of scheduling. We watch hotel prices, and often book rooms using points, free nights and other discounts. We plan carefully, and if we decide that a trip might involve stops in multiple cities, we price our transportation options. We check exchange rates on currency. We read up on attractions, look for deals, and seek out free walking tours.
+        blockquote
+          | Some people dream of success, while other people get up every morning and make it happen.&rdquo;
+          span Wayne Huizenga
+        p
+          | In the past few years, we&rsquo;ve been to mountains, beaches, massive cities and isolated towns you could speed through in a blink. We&rsquo;ve been all over the U.S. and to a dozen or so countries. That means long flights, wandering dazedly through strange places, sometimes not knowing what or where we&rsquo;ll be eating next or exactly when we&rsquo;ll make it to our next destination. But it also means volcanoes, glaciers, geysers and warm friendly strangers from all over the world.
+        p
+          | And it means memories we&rsquo;ll treasure forever. Our friends think it&rsquo;s kind of kitschy, but my husband, Mike, and I collect magnets from the places we go. We arrange them on the side of the fridge that faces our table in the kitchen, so that when we&rsquo;re sitting together we can see the collection, which reminds us of some of our happiest times.
+        figure.my-4
+          img(src='images/blog-post-img.png', alt='')
+        h3.mb-3 Immediate Dividends
+        p
+          | Some part of the benefit is purely financial. There are experiences and lessons you learn on the road that can be directly applied to business and investment. You witness firsthand new trends, or the way old trends have shown up in new places, or the way some trends seem nearly universal. You see for yourself new styles of clothing, where young professionals are shopping, which brands are popular in different places.
+        p
+          | In some countries, you need only to scan a busy street to get a clear sense of what might soon be popular in the U.S., and which American exports might be the next big thing somewhere else. (In Portugal, we were surprised when a woman in her 20s told us how much she loves Guy Fieri.)
+      // .single-post-wrap
+      .tags-links.mt-4
+        ul.d-flex.flex-wrap.align-items-center.p-0.m-0
+          li
+            a(href='#') Multipopuse
+          li
+            a(href='#') Design
+          li
+            a(href='#') Ideas
+      // .tags-links
+      .related-blog-posts
+        header.entry-heading.flex.flex-wrap.justify-content-between.align-items-center
+          h2.entry-title Related Courses
+          a(href='#') View all
+        // .entry-heading
+        .row.mx-m-25
+          .col-12.col-lg-6.px-25
+            .blog-post-content
+              figure.blog-post-thumbnail.position-relative.m-0
+                a(href='#')
+                  img(src='images/b-5.jpg', alt='')
+                .posted-date.position-absolute
+                  .day 23
+                  .month mar
+              // .blog-post-thumbnail
+              .blog-post-content-wrap
+                header.entry-header
+                  h2.entry-title
+                    a(href='#') Which investment project should my company choose?
+                  .entry-meta.flex.flex-wrap.align-items-center
+                    .post-author
+                      a(href='#') Ms. Lara Croft 
+                    .post-comments
+                      a(href='#') 02 Comments
+                  // .entry-meta
+                // .entry-header
+              // .blog-post-content-wrap
+            // .blog-post-content
+          // .col
+          .col-12.col-lg-6.px-25
+            .blog-post-content
+              figure.blog-post-thumbnail.position-relative.m-0
+                a(href='#')
+                  img(src='images/b-6.jpg', alt='')
+                .posted-date.position-absolute
+                  .day 23
+                  .month mar
+              // .blog-post-thumbnail
+              .blog-post-content-wrap
+                header.entry-header
+                  h2.entry-title
+                    a(href='#') Which investment project should my company choose?
+                  .entry-meta.flex.flex-wrap.align-items-center
+                    .post-author
+                      a(href='#') Ms. Lara Croft 
+                    .post-comments
+                      a(href='#') 02 Comments
+                  // .entry-meta
+                // .entry-header
+              // .blog-post-content-wrap
+            // .blog-post-content
+          // .col
+        // .row
+      // .related-course
+      .author-box
+        .author-info.flex.flex-wrap
+          .author-avatar
+            img(src='images/instructor.jpg', alt='')
+            ul.author-social-profile.p-0.m-0.mt-3.d-flex.flex-wrap.align-items-center
+              li
+                a(href='#')
+                  i.fa.fa-facebook
+              li
+                a(href='#')
+                  i.fa.fa-twitter
+              li
+                a(href='#')
+                  i.fa.fa-google-plus
+          // .author-avatar
+          .author-details
+            h3.author-name
+              | Ms. Lara Croft 
+              span Admin
+            .entry-content.mt-3
+              p
+                | Hi! I&apos;m Colt. I&apos;m a developer with a serious love for teaching. I&apos;ve spent the last few years teaching people to program at 2 different immersive bootcamps where I&apos;ve helped hundreds of people become web developers and change their lives. My graduates work at companies like Google, Salesforce, and Square.
+            // .entry-content
+          // .author-details
+        // .author-info
+      // .author-box
+      .post-comments-wrap
+        .post-comments
+          h3.comments-title
+            span.comments-number 02 Comments
+          ol.comment-list
+            li.comment
+              article.comment-body
+                figure.comment-author-avatar
+                  img(src='images/c-1.png', alt='')
+                // .comment-author-avatar
+                .comment-wrap
+                  .comment-author
+                    span.comment-meta.d-block
+                      a(href='#') 27 Aug 2018
+                    // .comment-meta
+                    span.fn
+                      a(href='#') Chris Hadfield
+                    // .fn
+                  // .comment-author
+                  p
+                    | Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                  .reply
+                    a(href='#') like
+                    a(href='#') reply
+                  // .reply
+                // .comment-wrap
+                .clearfix
+              // .comment-body
+              ol.children
+                li.comment
+                  article.comment-body
+                    figure.comment-author-avatar
+                      img(src='images/c-2.png', alt='')
+                    // .comment-author-avatar
+                    .comment-wrap
+                      .comment-author
+                        span.comment-meta.d-block
+                          a(href='#') 27 Aug 2018
+                        // .comment-meta
+                        span.fn
+                          a(href='#') Albert Einstein
+                        // .fn
+                      // .comment-author
+                      p
+                        | Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                      .reply
+                        a(href='#') like
+                        a(href='#') reply
+                      // .reply
+                    // .comment-wrap
+                    .clearfix
+                  // .comment-body
+                // .comment
+              // .children
+            // .comment
+            li.comment
+              article.comment-body
+                figure.comment-author-avatar
+                  img(src='images/c-3.png', alt='')
+                // .comment-author-avatar
+                .comment-wrap
+                  .comment-author
+                    span.comment-meta.d-block
+                      a(href='#') 27 Aug 2018
+                    // .comment-meta
+                    span.fn
+                      a(href='#') Henry Ford
+                    // .comment-autho
+                  // .comment-author
+                  p
+                    | Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                  .reply
+                    a(href='#') like
+                    a(href='#') reply
+                  // .reply
+                // .comment-wrap
+                .clearfix
+              // .comment-body
+            // .comment
+          // .comment-list
+        // .post-comments
+        .comments-form
+          .comment-respond
+            h3.comment-reply-title Leave a comment
+            form.comment-form
+              input(type='text', placeholder='Name')
+              input(type='email', placeholder='Email')
+              input(type='url', placeholder='Website')
+              textarea(rows='4', placeholder='Messages')
+              input(type='submit', value='send message')
+            // .comment-form
+          // .comment-respond
+        // .comments-form
+      // .post-comments-wrap
+    // .col
+    // .row
+    // .container

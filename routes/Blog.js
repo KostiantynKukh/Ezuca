@@ -4,7 +4,8 @@ var router = express();
 router.get("/blog",(req,res)=>{
     res.render("blog", {
         title: "Blog",
-        bodyClass: "courses-page"
+        bodyClass: "blog-page",
+        entryHeader: "BLOG GRID"
     });
 })
 module.exports = router;

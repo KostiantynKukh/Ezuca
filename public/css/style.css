@@ -1448,7 +1448,7 @@ a.btn:hover {
 # Single Courses Page
 --------------------------------------------------------------*/
 .single-courses-page .page-header {
-    background: url("images/single-courses-bg.jpg") no-repeat center;
+    background: url("../images/single-courses-bg.jpg") no-repeat center;
 }
 
 .single-courses-page .page-header-overlay {
@@ -2013,7 +2013,7 @@ ul.black-doted {
 # Blog Page
 --------------------------------------------------------------*/
 .blog-page .page-header {
-    background: url("images/courses-header.jpg") no-repeat center;
+    background: url("../images/courses-header.jpg") no-repeat center;
 }
 
 .blog-posts {
@@ -2102,7 +2102,7 @@ ul.black-doted {
 # Single Blog Post
 --------------------------------------------------------------*/
 .single-blog-post .page-header {
-    background: url("images/single-courses-bg.jpg") no-repeat center;
+    background: url("../images/single-courses-bg.jpg") no-repeat center;
 }
 
 .single-blog-post .page-header-overlay {
@@ -2196,7 +2196,7 @@ ul.black-doted {
     left: 0;
     width: 26px;
     height: 20px;
-    background: url("images/quote.png") no-repeat;
+    background: url("../images/quote.png") no-repeat;
 }
 
 .single-post-wrap blockquote span {
@@ -2504,7 +2504,7 @@ ul.author-social-profile li:hover .fa {
 # Contact Page
 --------------------------------------------------------------*/
 .contact-page .page-header {
-    background: url(images/courses-header.jpg) no-repeat center;
+    background: url(../images/courses-header.jpg) no-repeat center;
 }
 
 .contact-page .contact-gmap {

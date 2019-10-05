@@ -3,7 +3,9 @@ var router = express();
 
 router.get("/contact",(req,res)=>{
     res.render("contact", {
-        page:"Contact us"
+        title:"Contact us",
+        bodyClass: "contact-page",
+        entryHeader: "CONTACT"
     });
 })
 module.exports = router;
