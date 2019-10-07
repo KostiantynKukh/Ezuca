@@ -34,7 +34,7 @@ block content
     // .col
     .col-12.col-lg-6
       .contact-form
-        h3 Contact Form
+        h3 #{contactTitle}
         form
           input(type='text', placeholder='Your Name')
           input(type='email', placeholder='Your Email')
@@ -45,19 +45,19 @@ block content
     // .col
     .col-12.col-lg-6
       .contact-info
-        h3 Contact Information
+        h3 #{contactInfo}
         p
-          | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum.
+          | #{contactContent}
         ul.p-0.m-0
           li
             span Location:
-            | 40 Baria Sreet 133/2 NewYork City, US
+            | #{location}
           li
             span Email:
-            a(href='#') info.deeercreative@gmail.com
+            a(href='#') #{email}
           li
             span Phone:
-            a(href='#') (203) 123-6666
+            a(href='#') #{phone}
       // .contact-info
     // .col
     // .row
